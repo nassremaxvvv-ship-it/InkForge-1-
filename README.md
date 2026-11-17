@@ -1,18 +1,12 @@
 
-#include <QApplication>
-#include <QCoreApplication>
-#include "ui/inkforgewindow.h"
+# InkForge
 
-int main(int argc, char *argv[])
-{
-    QApplication app(argc, argv);
+An independent digital drawing application.
 
-    QCoreApplication::setApplicationName("InkForge");
-    QCoreApplication::setApplicationVersion("0.1.0");
-    QCoreApplication::setOrganizationName("InkForge");
+## Project status
 
-    InkForgeWindow window;
-    window.show();
+Early development.
 
-    return app.exec();
-}
+## Vision
+
+InkForge aims to provide a professional digital drawing experience, starting with Android.
